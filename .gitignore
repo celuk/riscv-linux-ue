@@ -43,6 +43,7 @@
 *.tar
 *.xz
 *.dump
+*.vmem
 Module.symvers
 modules.builtin
 
