@@ -695,10 +695,10 @@ EXPORT_SYMBOL(__sysfs_match_string);
  */
 void *memset(void *s, int c, size_t count)
 {
-	char *xs = s;
-
-	while (count--)
-		*xs++ = c;
+	//char *xs = s;
+//
+	//while (count--)
+	//	*xs++ = c;
 	return s;
 }
 EXPORT_SYMBOL(memset);
